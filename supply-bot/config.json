@@ -1,0 +1,22 @@
+{
+    "db": {
+        "host": "localhost",
+        "port": "5432",
+        "ssl_mode": "disable",
+        "driver": "postgres",
+        "db_name": "postgres",
+        "user": "postgres",
+        "password": "postgres"
+    },
+    "monitor_bot": {
+        "private_key_owner": "private key of owner",
+        "public_key_owner": "public key of owner",
+        "contract": "address of vault contract",
+        "rpc": "wss://watchtowerws.testnet.arkhia.io/<arkhia key>"
+    },
+    "watcher": {
+        "rpc": "wss://watchtowerws.testnet.arkhia.io/<arkhia key>",
+        "contract": "address of vault contract",
+        "block_number": "block number to resume syncing from"
+    }
+}
